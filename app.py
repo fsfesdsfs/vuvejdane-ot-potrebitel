@@ -4,17 +4,17 @@ st.write("Колко е 5 + 3?")
 q1 = st.number_input("Отговор 1:", step=1)
 if st.button("Провери 1"):
     if q1 == 8:
-        st.write("✅ Верен отговор!")
+        st.write(" Верен отговор!")
     else:
-        st.write("❌ Грешен отговор.")
+        st.write(" Грешен отговор.")
 
 st.write("Коя е столицата на България?")
 q2 = st.text_input("Отговор 2:")
 if st.button("Провери 2"):
     if q2.lower() == "софия":
-        st.write("✅ Верен отговор!")
+        st.write(" Верен отговор!")
     else:
-        st.write("❌ Грешен отговор.")
+        st.write(" Грешен отговор.")
 
 st.write("Колко е 9 - 4?")
 q3 = st.number_input("Отговор 3:", step=1)
