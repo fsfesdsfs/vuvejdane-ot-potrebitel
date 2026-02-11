@@ -17,7 +17,7 @@ if st.button("Провери"):
 st.write("Коя е столицата на България?")
 
 
-user_answer = st.text_input("Въведете отговора:", step=1)
+user_answer = st.text_input("Въведете отговора:", step=2)
 
 
 if st.button("Провери"):
@@ -27,7 +27,7 @@ if st.button("Провери"):
         st.write(" Грешен отговор. Опитайте отново.")
 
 st.write(" Къде живее илия кирилов рангелов?")
-user_answer = st.number_input("Въведете отговора:", step=1)
+user_answer = st.number_input("Въведете отговора:", step=3)
 if user_answer == Асеновград:
     st.write("Верен отговор!")
 else:
