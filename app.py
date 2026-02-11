@@ -27,6 +27,7 @@ if st.button("Провери"):
         st.write(" Грешен отговор. Опитайте отново.")
 
 st.write(" Къде живее илия кирилов рангелов?")
+user_answer = st.number_input("Въведете отговора:", step=1)
 if user_answer == Асеновград:
     st.write("Верен отговор!")
 else:
